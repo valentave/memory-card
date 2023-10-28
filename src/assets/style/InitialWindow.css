@@ -1,0 +1,54 @@
+* {
+    --yelow: #ffcc01;
+    --blue: #2c6cb5;
+}
+
+@font-face {
+    font-family: pokemon;
+    src: url("../fonts/pokemon.ttf");
+}
+
+.initial-window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 5vh;
+}
+
+.main-logo {
+    width: 80%;
+    min-width: 320px;
+    max-width: 700px;
+}
+
+.game-title {
+    font-family: pokemon;
+    letter-spacing: .4rem;
+    text-align: center;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    color: var(--yelow);
+    line-height: 4rem;
+}
+
+.difficulty-selector {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.difficulty-btn {
+    font-family: pokemon;
+    color: var(--blue);
+    background-color: var(--yelow);
+    font-size: clamp(1rem, 2.5vw, 1.75rem);
+    border-radius: 10px;
+    border: 2px solid var(--blue);
+    padding-bottom: 0.8ch;
+    min-width: 8ch;
+    width: 10vw;
+    max-width: 16ch;
+    cursor: pointer;
+}
