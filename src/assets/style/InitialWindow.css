@@ -59,3 +59,58 @@
 .difficulty-btn:hover {
     width: 30vw;
 }
+
+.help-btn {
+    font-size: 2rem;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    padding: 0 0.6ch;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.help-btn:hover {
+    transform: scale(1.2);
+}
+
+.help-container {
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-window {
+    background: var(--blue);
+    color: var(--yellow);
+    font-family: pokemon;
+    text-align: center;
+    padding: 5%;
+    border-radius: 20px;
+    border: 5px solid var(--yellow);
+    min-width: 50vw;
+    max-width: 90vw;
+    position: relative;
+}
+
+.close-btn {
+    font-size: 1.5rem;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    border: 2px solid red;
+    color: red;
+    padding: 0 0.5ch;
+    position: absolute;
+    top: 6%;
+    right: 1.5%;
+    cursor: pointer;
+}
