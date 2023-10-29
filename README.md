@@ -1,6 +1,6 @@
 # Memory Cards Game
 
-Welcome to the Memory Cards Game, a fun and challenging React-based web application. Test your memory and cognitive skills by matching pairs of cards while making sure you never select the same card twice. The game offers three different difficulty levels to suit your preference and skill level.
+Welcome to the Memory Cards Game, a fun and challenging React-based web application. Test your memory and cognitive skills by clicking cards while making sure you never select the same card twice. The game offers three different difficulty levels to suit your preference and skill level.
 
 ## How to play
 
