@@ -1,0 +1,62 @@
+.game-window {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2vw;
+}
+
+.home-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.home-logo{
+    height: 100px;
+}
+
+.score-container {
+    background: var(--blue);
+    color: var(--yellow);
+    font-family: pokemon;
+    padding: 5px 15px;
+    border: 2px solid var(--yellow);
+    border-radius: 10px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    flex-grow: 1;
+    align-content: center;
+}
+
+.card {
+    min-width: 100px;
+    width: calc(17% - 10px);
+    background-color: var(--blue);
+    color: var(--yellow);
+    font-family: pokemon;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid var(--yellow);
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.2);
+    background: var(--light-blue);
+}

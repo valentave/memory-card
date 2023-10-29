@@ -1,6 +1,7 @@
 * {
-    --yelow: #ffcc01;
+    --yellow: #ffcc01;
     --blue: #2c6cb5;
+    --light-blue: #65a6f0;
 }
 
 @font-face {
@@ -14,6 +15,7 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+    min-height: 100vh;
     gap: 5vh;
 }
 
@@ -28,7 +30,7 @@
     letter-spacing: .4rem;
     text-align: center;
     font-size: clamp(1.5rem, 5vw, 3rem);
-    color: var(--yelow);
+    color: var(--yellow);
     line-height: 4rem;
 }
 
@@ -42,7 +44,7 @@
 .difficulty-btn {
     font-family: pokemon;
     color: var(--blue);
-    background-color: var(--yelow);
+    background-color: var(--yellow);
     font-size: clamp(1rem, 2.5vw, 1.75rem);
     border-radius: 10px;
     border: 2px solid var(--blue);
@@ -51,4 +53,9 @@
     width: 10vw;
     max-width: 16ch;
     cursor: pointer;
+    transition: all 0.35s;
+}
+
+.difficulty-btn:hover {
+    width: 30vw;
 }
